@@ -1,0 +1,2 @@
+g++ main.cpp -o main `pkg-config --cflags --libs opencv4`
+g++ ocr_demo.cpp -o ocr_demo `pkg-config --cflags --libs opencv4` -ltesseract
